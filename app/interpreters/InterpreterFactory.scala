@@ -17,7 +17,7 @@ object InterpreterFactory {
 
   private class Potigol extends Interpreter {
     override def run(file: File): String = {
-      return ""
+      return f"potigol ${file.getPath()}" !!
     }
   }
 
